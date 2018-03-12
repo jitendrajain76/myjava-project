@@ -8,6 +8,6 @@ public class Rectangular()
 	}
 	
 	Rectangle myrect = new Rectange(length,width);
-	String output = String.format("***Your rectangle *** Area is: %d",myrect,getArea());
+	String output = String.format("***Your rectangle *** Area is: %d",myrect.getArea());
 	System.out.println(output);
 }
