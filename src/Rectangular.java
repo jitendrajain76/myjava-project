@@ -7,7 +7,7 @@ public class Rectangular
 		int width= Integer.parseInt(args[1]);
 	
 	
-	Srectangle myrect = new Srectange(length,width);
+	Srectangle myrect = new Srectangle(length,width);
 	String output = String.format("***Your rectangle *** Area is: %d",myrect.getArea());
 	System.out.println(output);
 	}

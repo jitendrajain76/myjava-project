@@ -1,4 +1,4 @@
-public class Srectange
+public class Srectangle
 {
 	public int length;
 	public int width;
@@ -14,7 +14,7 @@ public class Srectange
 		return length*width;
 	}
 
-	public getPerimeter()
+	public int getPerimeter()
 	{
 		return 2*(length+width);
 	}
