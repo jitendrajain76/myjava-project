@@ -19,7 +19,7 @@ pipeline {
 	}	
 		stage('deploy'){
 		steps{
-		sh 'cp dist/jenkins.jar /var/www/html/rectangles/all/'
+		sh 'cp dist/rectangle.jar /var/www/html/rectangles/all/'
 		}
 	    }
 	}
